@@ -1,0 +1,52 @@
+JSX -> Javascript xml file;
+
+Embedding JS in JSX:
+eg:<h1>Hello</h1>
+
+Components:
+There are two types of components, namely:
+1) Functional Component,
+2)
+
+Props:
+Passing and using props.
+eg:<com data="value" item="value">
+
+State:
+Local data for the Component
+
+Hooks:
+Usestate hook,
+import {useState} from 'react'
+function com(){
+    let[count,setCount]=useState(0)
+}
+
+Modifying state with setters
+setState(5)
+state drive re-renders
+
+Even- -Handling:
+Handling events: Onclick,onChange,etc..
+
+Lists and keys:
+Using .map() to render Lists
+
+Fragments:
+Using <>...</>
+
+useEffect and Lifcycle:
+Mount: fetch the data from backend
+Update: Respond to stat/props changes
+Cleanup: Unmount logic
+
+Tables:
+Rendering Tabular data from Lists
+Sorting and filtering;
+
+API Connection:(useEffect)
+
+Eg:
+useEffect(()=>
+fecth("URL").then(res.json().then(data=>setState(data))).catcj(er=>console.log())
+)
