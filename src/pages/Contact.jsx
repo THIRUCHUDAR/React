@@ -2,7 +2,7 @@ function Contact() {
     return (
         <div>
             <h1>Contact:</h1>
-            <p>Phone</p>
+            <p>Phone: +91 9069512026</p>
         </div>
     );
 }

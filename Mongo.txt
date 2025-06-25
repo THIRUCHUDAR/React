@@ -1,0 +1,60 @@
+use kec
+switched to db kec
+db.createCollection("User")
+{ ok: 1 }
+
+db.User.insertMany([
+  {name:"Kesavan",age:20,email:"kesavan@gmail.com",dep:"EIE"},
+])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('685b6e52bad9f9b7a6e85dab')
+  }
+}
+db.User.insertMany([
+  {name:"Rikash",age:20,email:"Rikash@gmail.com",dep:"EIE"},
+  {name:"Saran",age:20,email:"saran@gmail.com",dep:"EIE"},
+])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('685b6eb9bad9f9b7a6e85dac'),
+    '1': ObjectId('685b6eb9bad9f9b7a6e85dad')
+  }
+}
+db.User.insertMany([
+  {name:"Thamarai",age:20,email:"thamarai@gmail.com",dep:"EIE"},
+  {name:"Tharunkumar",age:20,email:"tharunkumar@gmail.com",dep:"EIE"},
+])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('685b6ef2bad9f9b7a6e85dae'),
+    '1': ObjectId('685b6ef2bad9f9b7a6e85daf')
+  }
+}
+db.User.insertMany([
+  {name:"Kowshiksharan",age:20,email:"nallasivam@gmail.com",dep:"EIE"},
+  {name:"Sreesuthan",age:20,email:"jothibabu@gmail.com",dep:"EIE"},
+])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('685b6f61bad9f9b7a6e85db0'),
+    '1': ObjectId('685b6f61bad9f9b7a6e85db1')
+  }
+}
+db.User.insertMany([
+  {name:"sharan",age:20,email:"ravi@gmail.com",dep:"EIE"},
+  {name:"madhavan",age:20,email:"madhavankuttiyan@gmail.com",dep:"EIE"},
+])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('685b6f8dbad9f9b7a6e85db2'),
+    '1': ObjectId('685b6f8dbad9f9b7a6e85db3')
+  }
+}
+kec
+
